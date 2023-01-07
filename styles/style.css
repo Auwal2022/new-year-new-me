@@ -45,7 +45,7 @@
 /* failure section start from here */
 
 .failure-experience{
-    width: 80%;
+    width: 90%;
     margin: auto;
     padding: 80px 0;
     display: flex;
@@ -58,7 +58,7 @@
 }
 
 .person-content{
-    width: 400px;
+    width: 450px;
 }
 
 .person-content h1{
@@ -78,4 +78,39 @@
 .person-content ul li a i{
     color: orange;
     margin-right: 10px;
+}
+
+
+
+/* my plan section start from here */
+
+.my-plan{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.my-plan h1{
+    font-size: 35px;
+}
+
+.my-plan-container{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.my-plan-container img{
+    width: 60px;
+}
+
+.my-plan-container h3{
+    margin: 8px 0;
+}
+
+.my-plan-container p{
+    font-weight: bold;
+    color: grey;
 }
