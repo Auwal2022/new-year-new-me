@@ -15,25 +15,67 @@
 
 .header-content {
     position: absolute;
-    right: 10%;
-    width: 300px;
+    right: 15%;
+    width: 400px;
     text-align: right;
 }
 
 .header-content h1{
     letter-spacing: 3px;
+    font-size: 50px;
 }
 
 .header-content p{
     margin: 20px 0;
+    line-height: 25px;
 }
 
 .primary-button{
-    padding: 10px 20px;
+    padding: 15px 20px;
     background: orangered;
     color: #fff;
     border-radius: 3px;
     border: none;
     outline: none;
     font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* failure section start from here */
+
+.failure-experience{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.person-image img{
+    width: 450px;
+}
+
+.person-content{
+    width: 400px;
+}
+
+.person-content h1{
+    font-size: 38px;
+}
+
+.person-content p{
+    margin: 25px 0;
+    line-height: 22px;
+}
+
+.person-content ul li{
+    list-style: none;
+    line-height: 25px;
+}
+
+.person-content ul li a i{
+    color: orange;
+    margin-right: 10px;
 }
